@@ -2,7 +2,7 @@
     {
         "job_id":1,
         "job_Title": "Software Engineer",
-        "company": "ABC Tech",
+        "company": "Google Tech",
         "location": "San Francisco, CA",
         "salary": "100000-130000",
         "jobDescription": "We are looking for a highly skilled software engineer to join our team. The ideal candidate will have a strong background in computer science and experience in software development.",
@@ -13,12 +13,13 @@
         "email": "hr@abctech.com",
         "address": "123 Main Street, San Francisco, CA",
         "jobType": "Full-time",
+        "jobLocation": "Onsite",
         "logo":"https://i.ibb.co/4VsRx0P/google-1-1-1.png"
     },
     {
         "job_id":2,
         "job_Title": "Marketing Manager",
-        "company": "XYZ Corp",
+        "company": "Airbnb Corp",
         "location": "New York, NY",
         "salary": "90000-120000",
         "jobDescription": "We are seeking an experienced marketing manager to lead our marketing team. The ideal candidate will have a proven track record of developing and executing successful marketing strategies.",
@@ -29,12 +30,13 @@
         "email": "hr@xyzcorp.com",
         "address": "456 Park Avenue, New York, NY",
         "jobType": "Full-time",
+        "jobLocation": "Remote",
         "logo":"https://i.ibb.co/sJtwt9K/airbnb.png"
     },
     {
         "job_id":3,
         "job_Title": "Accountant",
-        "company": "LMN Accounting",
+        "company": "Netflix",
         "location": "Los Angeles, CA",
         "salary": "60000-80000",
         "jobDescription": "We are seeking an experienced accountant to join our team. The ideal candidate will have a strong background in accounting and finance.",
@@ -45,12 +47,13 @@
         "email": "hr@lmnaccounting.com",
         "address": "789 Main Street, Los Angeles, CA",
         "jobType": "Full-time",
+        "jobLocation": "Onsite",
         "logo":"https://i.ibb.co/GRBCTvc/netflix-4-1.png"
     },
     {
         "job_id":4,
         "job_Title": "Customer Service Representative",
-        "company": "LMN Retail",
+        "company": "Tesla",
         "location": "Houston, TX",
         "salary": "30000-40000",
         "jobDescription": "We are seeking a customer service representative to provide excellent customer service to our clients. The ideal candidate will have excellent communication and problem-solving skills.",
@@ -61,12 +64,13 @@
         "email": "hr@lmnretail.com",
         "address": "9876 Main Street, Houston, TX",
         "jobType": "Full-time",
+        "jobLocation": "Onsite",
         "logo":"https://i.ibb.co/0BJdFR9/tesla-9-1.png"
     },
     {
         "job_id":5,
         "job_Title": "Human Resources Manager",
-        "company": "ABC Corp",
+        "company": "Netflix",
         "location": "Boston, MA",
         "salary": "120000-150000",
         "jobDescription": "We are seeking an experienced human resources manager to lead our HR team. The ideal candidate will have a proven track record of developing and implementing HR strategies and programs.",
@@ -77,12 +81,13 @@
         "email": "hr@abccorp.com",
         "address": "345 Main Street, Boston, MA",
         "jobType": "Full-time",
+        "jobLocation": "Onsite",
         "logo":"https://i.ibb.co/GRBCTvc/netflix-4-1.png"
     },
     {
         "job_id":6,
         "job_Title": "Software Developer",
-        "company": "XYZ Tech",
+        "company": "Google Ads",
         "location": "San Francisco, CA",
         "salary": "90000-110000",
         "jobDescription": "We are seeking a talented software developer to join our team. The ideal candidate will have experience developing web applications and a strong understanding of software development principles.",
@@ -93,6 +98,7 @@
         "email": "hr@xyztech.com",
         "address": "1234 Market Street, San Francisco, CA",
         "jobType": "Full-time",
+        "jobLocation": "Remote",
         "logo":"https://i.ibb.co/4VsRx0P/google-1-1-1.png"
     }
 ]
