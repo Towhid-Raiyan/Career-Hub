@@ -1,15 +1,12 @@
 import React from 'react';
 
-const JobCategories = () => {
+const JobCategories = ({category}) => {
+    console.log(category.category_image)
     return (
-        <div className='mt-12 '>
-            <div className='text-center'>
-                <h3 className='text-3xl font-bold'>Job Category List</h3>
-                <p className='text-gray-500'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-            </div>
-            <div>
-                
-            </div>
+        <div className='bg-indigo-50 p-4 py-6 w-80 rounded-lg mb-10 mx-6'>
+            <img className='bg-indigo-200 p-2 rounded-lg w-16' src={category.category_image} alt="" />
+            <h1 className='font-semibold text-2xl mt-6'>{category.category_name}</h1>
+            <p className='text-gray-500 mt-2 mb-2'>{category.jobs_available}</p>
         </div>
     );
 };
