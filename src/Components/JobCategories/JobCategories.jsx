@@ -1,7 +1,7 @@
 import React from 'react';
 
 const JobCategories = ({category}) => {
-    console.log(category.category_image)
+    
     return (
         <div className='bg-indigo-50 p-4 py-6 w-80 rounded-lg mb-10 mx-6'>
             <img className='bg-indigo-200 p-2 rounded-lg w-16' src={category.category_image} alt="" />

@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const FeaturedJob = ({ job }) => {
     const { job_Title, company, location, salary, job_id, jobType, logo, jobLocation } = job;
-    console.log(jobLocation)
+    
     return (
         <div className=" p-6 border-solid border-2 static">
             <img className="w-24" src={logo} alt="" />
@@ -55,7 +56,7 @@ const FeaturedJob = ({ job }) => {
 
                 <p> Salary: {salary}</p>
             </div>
-            <button className="btn-primary mt-10 bg-indigo-400 px-4 py-2 rounded-lg text-white text-l font-bold"> View Details</button>
+            <Link to={`../job/${job_id}`}> <button className="btn-primary mt-10  px-4 py-2 rounded-lg text-white"> View Details</button></Link>
 
         </div>
     );

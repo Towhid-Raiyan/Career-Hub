@@ -33,7 +33,7 @@ const FeaturedJobSection = () => {
                    status? jobs.map(job => <FeaturedJob key={job.job_id} job={job}></FeaturedJob>) : showless.map(sl => <FeaturedJob key={sl.job_id} job={sl}></FeaturedJob>)
                 }
             </div>
-            <button onClick={toggleStatus} className='btn items-center mt-10 bg-indigo-400 px-4 py-2 rounded-lg text-white text-l font-bold mb-5'>
+            <button onClick={toggleStatus} className='btn-primary  items-center mt-10  px-4 py-2  text-white mb-5'>
                 See All jobs
             </button>
         </div>
