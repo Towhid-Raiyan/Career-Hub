@@ -1,9 +1,10 @@
 import React from 'react';
+import AppliedJobsload from '../AppliedJobsload/AppliedJobsload';
 
 const AppliedJobs = () => {
     return (
         <div>
-            <h2>This is applied job page...</h2>
+            <AppliedJobsload></AppliedJobsload>
         </div>
     );
 };
