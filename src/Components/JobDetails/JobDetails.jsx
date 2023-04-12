@@ -35,8 +35,8 @@ const JobDetails = () => {
     return (
         <div>
             <JobDetailsHeader></JobDetailsHeader>
-            <div className="container mx-auto my-20 flex gap-10 justify-between">
-                <div className="w-10/12 leading-loose">
+            <div className="container mx-auto  my-20 flex gap-10 justify-between">
+                <div className="w-10/12 leading-loose ml-5">
                     <p className="mt-4">
                         <span className="font-semibold">Job Description: </span>{" "}
                         {job.jobDescription}
@@ -60,7 +60,7 @@ const JobDetails = () => {
                         {job.experiences}
                     </p>
                 </div>
-                <div className="bg-indigo-50 w-96 p-12 rounded-lg">
+                <div className="bg-indigo-50 w-96 p-12 rounded-lg mx-3 mr-5">
                     <div>
                         <h1 className="font-semibold text-md my-2">
                             Job Details

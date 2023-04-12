@@ -5,7 +5,7 @@ const AppliedJob = ({ job }) => {
     const { job_Title, company, location, salary, job_id, jobType, logo, jobLocation } = job;
 
     return (
-        <div className=" grid grid-cols-1 my-6 border-2 p-6">
+        <div className=" grid grid-cols-1 my-6 border-2 p-6 mx-3">
             <div className="flex justify-between items-center">
                 <div className="flex justify-start gap-10 items-center">
                     <div className="h-32 w-32 bg-slate-100 flex items-center p-4 rounded-md">

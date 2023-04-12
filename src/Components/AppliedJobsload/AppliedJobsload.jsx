@@ -25,7 +25,7 @@ const AppliedJobsload = () => {
             <AppliedJobHeader></AppliedJobHeader>
             <div className="container mx-auto mt-10 flex justify-end gap-6">
                 <button className="btn-primary w-24" >Onsite</button>
-                <button className="btn-primary w-24">Remote</button>
+                <button className="btn-primary w-24 mr-3">Remote</button>
             </div>
             <div className="mt-10">
                 <div className="container mx-auto">
