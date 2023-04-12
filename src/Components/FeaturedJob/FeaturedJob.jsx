@@ -5,15 +5,15 @@ const FeaturedJob = ({ job }) => {
     const { job_Title, company, location, salary, job_id, jobType, logo, jobLocation } = job;
     
     return (
-        <div className=" p-6 border-solid border-2 static">
+        <div className=" p-2 sm:p-6 border-solid border-2 static">
             <img className="w-24" src={logo} alt="" />
             <h1 className="text-2xl font-semibold mt-2">{job_Title}</h1>
             <p className="mt-2 text-gray-500">{company}</p>
             <div className="flex">
-                <p className="border-solid border-2 border-purple-600 p-1 w-24 my-2 text-purple-600 font-semibold rounded-md text-center mr-2">
+                <p className="border-solid border-2 border-blue-600 p-1 w-24 my-2 text-blue-600 font-semibold rounded-md text-center mr-2">
                     {jobType}
                 </p>
-                <p className="border-solid border-2 border-purple-600 p-1 w-24 my-2 text-purple-600 font-semibold rounded-md text-center">
+                <p className="border-solid border-2 border-blue-600 p-1 w-24 my-2 text-blue-600 font-semibold rounded-md text-center">
                     {jobLocation}
                 </p>
             </div>

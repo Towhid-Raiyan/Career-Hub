@@ -9,11 +9,11 @@
 }
 
 .btn-primary {
-  @apply bg-gradient-to-r from-indigo-500 to-purple-500 font-medium  transition duration-200  shadow-md   px-4 py-2  text-lg rounded-lg border-none border-2  
-  text-white hover:bg-gradient-to-r hover:from-indigo-800 hover:to-purple-800;
+  @apply bg-gradient-to-r from-sky-500 to-blue-500 font-medium  transition duration-200  shadow-md   px-4 py-2  text-lg rounded-lg border-none border-2  
+  text-white hover:bg-gradient-to-r hover:from-sky-800 hover:to-blue-800;
 }
 .active {
-  @apply font-medium tracking-wide text-indigo-500 transition-colors duration-200;
+  @apply font-medium tracking-wide text-blue-500 transition-colors duration-200;
 }
 .bg-header{
   @apply bg-gray-300

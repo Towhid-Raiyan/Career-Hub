@@ -16,10 +16,10 @@ const AppliedJob = ({ job }) => {
                         <h1 className="text-xl font-semibold">{job_Title}</h1>
                         <p className="text-gray-500 mt-1">{company}</p>
                         <div className='flex'>
-                            <p className="border-solid border-2 mt-1 border-purple-600 w-24 text-purple-600 font-semibold rounded-md text-center mr-2">
+                            <p className="border-solid border-2 mt-1 border-blue-600 w-24 text-blue-600 font-semibold rounded-md text-center mr-2">
                                 {jobType}
                             </p>
-                            <p className="border-solid border-2 mt-1 border-purple-600 w-24 text-purple-600 font-semibold rounded-md text-center">
+                            <p className="border-solid border-2 mt-1 border-blue-600 w-24 text-blue-600 font-semibold rounded-md text-center">
                                 {jobLocation}
                             </p>
                         </div>
